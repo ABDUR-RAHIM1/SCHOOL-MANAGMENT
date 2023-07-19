@@ -1,0 +1,35 @@
+.headerConatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #09b128; 
+    padding: 10px 30px;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+}
+.navItem{
+    font-size: 16px;
+    color: aliceblue;
+    transition: .4s;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navItem:hover{
+    color: #020231;
+}
+.active{
+    color: #020231;
+    border-bottom: 1px solid #020231;
+}
+.login_icon{
+    font-size: 30px; 
+    border-bottom: 2px solid yellow;
+}
+/*  costome css override bootstrap */
+.navbar-collapse { 
+    flex-grow: 0; 
+}
+/*  costome css override bootstrap */

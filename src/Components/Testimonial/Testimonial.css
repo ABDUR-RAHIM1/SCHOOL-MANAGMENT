@@ -1,0 +1,58 @@
+.testimonial {
+    padding: 30px;
+    background: linear-gradient( to right, #00800003 , #3ceb261c);
+}
+.testimonial h1{
+    color: #09b128; 
+    padding-bottom: 10px;  
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+.testimonial h1::after{
+    content: "";
+    width: 40%; 
+    height: 3px;
+    background: linear-gradient(to right , #09b128 , red);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.sliderWrap {
+    width: 70%;
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background: linear-gradient(to right,#09b128a3 , #ede61480 );
+}
+.testSlider {
+    width: 65%;
+    margin: auto; 
+}
+ .caruselItems{
+    padding: 20px 10px;
+    text-align: center;
+ }
+ .caruselItems h4{
+    color: rgb(24, 142, 245);
+ }
+ .occupation{
+    color: #630ee5;
+ }
+.slidImg{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%; 
+    background: linear-gradient(to right ,#630ee5, #1c102f );
+}
+
+/* bootstarp class override */
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon { 
+    width: 1rem;
+    height: 1rem; 
+}

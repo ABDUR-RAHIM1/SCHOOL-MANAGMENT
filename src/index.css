@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: .6s;
+}
+ 
+p{
+   font-size: 14px;
+   line-height: 1.5rem;
+}
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   transition: .6s;
+}
+
+.flex_box {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.my_btn {
+   border: none;
+   outline: none;
+   font-weight: 400;
+   font-size: 17px;
+   color: white;
+   margin-top: 10px;
+   border-radius: 4px;
+   text-transform: uppercase;
+   padding: 10px 15px;
+   background: linear-gradient(to right , #7f1313, #0fff3c);
+}
+
+/*  resposniev code end here */
