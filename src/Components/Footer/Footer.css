@@ -1,0 +1,43 @@
+.footer {
+    padding: 50px 30px;
+    background: linear-gradient(3deg, #000000 0%, #005f6e 101%);
+}
+.footer_first {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #282f29;
+}
+
+.footer_nav a {
+    color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    padding-left: 10px;
+    border-left: 2px solid #09b128;
+}
+
+.footer_nav a:first-child {
+    border-left: 0;
+}
+.footer_middle {
+    border-bottom: 1px solid #282f29;
+}
+.footer_icons h4 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+
+.fIcon {
+    font-size: 25px;
+    color: #09b128;
+    margin-right: 15px;
+}
+.fIcon:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.footer_newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

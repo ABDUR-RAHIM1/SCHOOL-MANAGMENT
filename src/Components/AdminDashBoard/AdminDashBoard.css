@@ -1,0 +1,70 @@
+.AdminDashBoard{
+    height: auto; 
+    position: relative;
+    align-items:flex-start;
+}
+.adminInfoSidebar{
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.adminInfoSidebar img {
+  width: 60px;
+  height: 60px;
+  border: 0.5px solid #dee2e65c;
+  margin-bottom: 6px;
+  box-shadow: 0px 0px 8px #09b128;
+  border-radius: 50%;
+  transition: .5s;
+}
+.adminInfoSidebar img:hover{
+  transform: rotate(-15deg);
+}
+.adminInfoSidebar p{
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.back_Buttn { 
+  z-index: 999; 
+}
+.dashboardSideBar {
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    left: -999px;
+    top: 0;
+    background: linear-gradient(#09b128c9 , #009fffc7);
+    padding-left: 15px;
+}
+.dashboardSideBar2 {
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    background: linear-gradient(#09b128c9 , #009fffc7); 
+    padding: 50px 15px; 
+}
+.dashboardSideBar2::-webkit-scrollbar {
+    width: 3px;  
+  }
+  ::-webkit-scrollbar-track {
+    background: radial-gradient(red , blue);  
+    cursor: pointer;
+  }
+
+  .dashboardContent {
+    width: 74%;
+    padding: 20px 20px;
+    height: 100vh; 
+    overflow-x: auto;
+    position: relative;
+}
+.dashboardContent::-webkit-scrollbar {
+    width: 6px;  
+  }
+  .dashboardContent::-webkit-scrollbar-track {
+    background: radial-gradient(red , blue);  
+    cursor: pointer;
+  }

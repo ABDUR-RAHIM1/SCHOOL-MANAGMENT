@@ -1,0 +1,10 @@
+
+.resultBtn{
+  color: crimson;
+  cursor: pointer;
+}
+.resultBtn:hover{
+    color: orangered;
+}
+
+ 

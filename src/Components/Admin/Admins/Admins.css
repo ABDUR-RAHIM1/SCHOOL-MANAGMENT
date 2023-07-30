@@ -1,0 +1,43 @@
+.adminsContainer{
+    margin: 40px 0px;
+
+}
+.admins-header{
+    justify-content: center;
+}
+.admins-header h2{
+    margin-right: 10px;
+}
+.profile {
+    color: white;
+    background: linear-gradient(#09b128d9 , #b109ac);
+    text-align: center;
+    border-radius: 18px;
+    margin: 20px 0px;
+    padding: 20px;
+}
+/*  single admin component */
+.admin {
+    width: 32%;
+    border: 0.5px solid lightgray;
+    border-radius: 10% 50% 0% 0%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.admin img{
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.adminBtn{
+    position: absolute;
+    left:5px;
+    top: 5px;
+}
+.adminBtnIcon{
+    font-size: 25px;
+    cursor: pointer;
+}

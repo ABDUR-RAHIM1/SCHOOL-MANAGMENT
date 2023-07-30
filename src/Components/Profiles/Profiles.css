@@ -1,0 +1,26 @@
+.student-profile{
+    width: 50%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px 10px;
+    position: relative;
+}
+.student-profile img{
+    width: 80%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.profile p{
+    font-size: 17px;
+}
+.profileBtn{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.profileBtn .icon{
+    font-size: 30px;
+    color: rgb(191, 35, 35);
+    cursor: pointer;
+}
